@@ -1,0 +1,70 @@
+.form-title h1{
+    position:relative;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius:20px;
+    font-weight:200;
+    font-family: 'Roboto Mono', monospace;
+    font-size:16px;
+    background-color: rgba(255,50,100,0.3);
+}
+
+.form-div input{
+    position:relative;
+    padding:25px;
+    width:  40vw;
+    height: 40px;
+    max-width:600px;
+    font-family: 'Roboto Mono', monospace;
+    border-radius:150px;
+    border: 2px solid rgba(255,255,255,0.4);
+}
+
+.form-div textarea{
+    position:relative;
+    padding:27px;
+    width: 40vw;
+    height:80px;
+    border-radius:150px;
+    font-family: 'Roboto Mono', monospace;
+    max-width:600px;
+    border: 2px solid rgba(255,255,255,0.4);
+    background-color: rgba(255,255,255,0.4);
+}
+
+
+    .lower-sections{
+      position:relative;
+      display:grid;
+      justify-content:center;
+}
+
+    .order__form input{
+        position:relative;
+        display:flex;
+        flex-direction:column;
+        height:100%;
+        padding : 20px;
+        width:30%;
+        font-size:11px;
+        justify-content:center;
+        font-family: 'Roboto Mono', monospace;
+
+        border: 2px solid rgba(255,255,255,0.4);
+}
+    .order__form h1{
+    position:relative;
+    display:grid;
+    flex-direction:column;
+    height:100%;
+    padding : 20px;
+    font-weight:200;
+    color:black;
+    font-size:11px;
+    width:30%;
+    justify-content:left;
+    font-family: 'Roboto Mono', monospace;
+    background-color: rgba(255,255,255,1);
+
+}
+  

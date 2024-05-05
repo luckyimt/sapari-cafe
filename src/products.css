@@ -1,0 +1,119 @@
+.products__filters {
+    display: grid;
+    padding:10px;
+    grid-template-columns: repeat(3, 1fr);
+    font-family: 'Roboto Mono', monospace;
+    
+  }
+
+  .products__container{
+    /* top:100px; */
+    display:grid;
+    height:50vh;
+    padding :12px;
+  }
+  
+  .products__item {
+    cursor: pointer;
+    
+  }
+  .products__item :hover{
+    text-decoration:underline;
+  }
+  
+  .products__title {
+    font-size: 20px;
+    color: #FFa000;
+    font-weight: 100;
+    font-family: 'Roboto Mono', monospace;
+  }
+  
+  
+  .active-product .products__title {
+    color: #FFa000;
+    font-family: 'Roboto Mono', monospace;
+  }
+ 
+  
+  .products__content {
+    position:relative;
+    display:grid;
+    grid-template-columns: repeat(1, 90%);
+    justify-content: center;
+    width:100%;
+    transition:1s;
+    font-family: 'Roboto Mono', monospace;
+  }
+  
+  .products__card {
+    background-color: orange;
+  padding:10px;
+    width:100%;
+  }
+  
+  .products__img {
+    display:grid;
+    max-width:100%;
+    border-radius: 50px;
+  }
+  .products__img img{
+    display:grid;
+    padding:10px;
+    width:150px;
+    position:relative;
+    border-radius: 20px;
+
+  }
+  @media screen and (max-width:600px)
+{
+  .products__img img {
+    display:grid;
+    padding:10px;
+    width:100px;
+    position:relative;
+    border-radius: 20px;
+}
+}
+  @media screen and (min-width:600px)
+  {
+    .products__content {
+    transition:1s;
+    display:grid;
+    grid-template-columns: repeat(2 , 40%);
+  }
+  }
+  @media screen and (min-width:1000px)
+  {
+    .products__content {
+      transition:1s;
+    display:grid;
+    grid-template-columns: repeat(5 , 1fr);
+  }
+}
+@media screen and (min-width:1100px)
+{
+  .products__content {
+    transition:1s;
+  display:grid;
+  grid-template-columns: repeat(5 , 1fr);
+}
+}
+
+
+  
+  .products__data {
+    padding: 1rem 0 1.25rem 1rem;
+    position: relative;
+  }
+  
+  .products__price {
+    font-size: var(--h2-font-size);
+    font-weight: 700;
+    font-family: 'Roboto Mono', monospace;
+  }
+  
+  .products__name {
+    font-size: var(--normal-font-size);
+    font-family: 'Roboto Mono', monospace;
+  }
+  
